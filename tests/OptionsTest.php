@@ -12,7 +12,7 @@ class OptionsTest extends TestCase
     public function testHas()
     {
         $options = new Options([
-            'exist' => 1,
+            'exist' => 2,
             'setNull' => null,
         ]);
         self::assertTrue($options->has('exist'));
